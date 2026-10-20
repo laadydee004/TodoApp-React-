@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+.header{
+ text-align: center; 
+}
+.all-process{
+  display: flex;
+  justify-content: center;
+}
+.add-task-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  border: 1px solid;
+  border-radius: 5px;
+
+}
+
+.add-task-div p, .add-task-div button{
+
+}
+.add-task-div p{
+  color: grey;
+  padding: 2px;
+}
+ .add-task-div button{
+   padding: 6px 12px;
+  color: white;
+  background: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+
+ }
+
+ .add-task-div button:hover{
+background-color: rgb(58, 52, 52);
+ }
+
+.user-task-dialog{
+ margin: 50px auto;
+  padding: 30px;
+}
+
+.each-task{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 5px;
+}
+.complete-checkbox{
+ display: flex;
+ align-items: center;
+ gap: 7px;
+}
+
+.task-progress{
+  display: flex;
+  justify-content: space-between;
+}
+.task-progress button{
+  padding:5px 22px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  margin: 5px 0;
+}
